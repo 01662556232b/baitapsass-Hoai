@@ -12,7 +12,7 @@ body {
   font-weight: 400;
 }
 
-.btnphone {
+.btnlienhe {
   background: #b61984;
   border-radius: 30px;
   border: 2px solid #b61984;
@@ -22,7 +22,7 @@ body {
   font-weight: 600;
   transition: all 0.5s;
 }
-.btnphone:hover {
+.btnlienhe:hover {
   background: #f5f9fe;
   border-radius: #b61984;
   color: #b61984;
@@ -233,132 +233,107 @@ header .btnnetwort {
   height: auto;
 }
 
-.find-couse {
-  margin-top: 130px;
+.formpeople {
+  padding-top: 150px;
   position: relative;
 }
-.find-couse .container {
-  width: 70%;
+.formpeople .row {
+  width: 100%;
+}
+.formpeople .formimg {
+  display: block;
+  overflow: hidden;
+}
+.formpeople .formimg img {
+  display: block;
+  margin: 0;
+  line-height: 0;
+  max-width: 100%;
   height: auto;
 }
-.find-couse .img-findEnd {
+.formpeople .formtext .formthunhat {
+  display: flex;
+  justify-content: center;
+}
+.formpeople .formtext .formthunhat .name {
+  display: flex;
+  justify-content: center;
+  max-width: 50%;
+  padding-right: 1em;
+}
+.formpeople .formtext .formthunhat .name .fa-solid {
+  position: absolute;
+  top: 11.2rem;
+  left: 3em;
+}
+.formpeople .formtext .formthunhat .email {
+  display: flex;
+  justify-content: center;
+  max-width: 50%;
+  position: relative;
+}
+.formpeople .formtext .formthunhat .email .fa-solid {
+  left: 1em;
+  line-height: 1;
+  position: absolute;
+  top: 0.6rem;
+  right: 3em;
+}
+.formpeople form {
+  border-radius: 10px;
+  box-shadow: 0 30px 30px -10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  background: #fff;
+}
+.formpeople form h2 {
+  font-size: 33px;
+  font-weight: 700;
+  color: #181818;
+  padding: 30px 0;
+}
+.formpeople form .over {
+  margin-bottom: 25px;
+}
+.formpeople form .form-group {
+  width: 90%;
+  color: #b61984;
+  padding-right: 6px;
+}
+.formpeople form .form-group .form-control {
+  padding: 0.5rem 2.2rem;
+  border-radius: 20px;
+}
+.formpeople form .form-group textarea {
+  padding: 1em 1em 1em 3.5em !important;
+  height: 90px;
+  line-height: 1.5;
+  font-size: 0.8em !important;
+  border-radius: 20px;
+}
+.formpeople form .form-group .input-group-langugue {
+  display: flex;
+  justify-content: center;
+  max-width: 50%;
+  position: relative;
+}
+.formpeople form .form-group .input-group-langugue .fa-solid {
+  left: 1em;
+  position: absolute;
+  top: 0.6rem;
+}
+.formpeople form .form-group .input-group-messages {
+  position: absolute;
+  top: 21.8em;
+  left: 3.2em;
+}
+.formpeople .formpeoplebottom {
   position: absolute;
   bottom: 0;
   left: 0;
 }
-.find-couse .img-findEnd img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.find-content {
-  z-index: 100;
-  max-width: 1110px;
-  margin: 0 auto;
-  padding-bottom: 30px;
-}
-
-.find-img img {
-  margin-top: 30px;
-  display: block;
-  margin-left: 50px;
-  line-height: 0;
+.formpeople .formpeoplebottom img {
   max-width: 100%;
   height: auto;
-  z-index: 99999;
-}
-
-.form-dad {
-  padding: 10px 20px;
-}
-
-.form-find {
-  z-index: 9999;
-  margin-left: 70px;
-  width: 80%;
-  padding: 40px 0 50px 40px;
-  box-shadow: rgba(0, 0, 0, 0.18) 0px 24px 18px;
-  background-color: #f5f9fe;
-  border-radius: 8px;
-}
-.form-find h1 {
-  color: 33px;
-  font-size: 700;
-  font-weight: #121212;
-  padding: 30px 0;
-}
-.form-find .btn-pink {
-  margin-top: 40px;
-}
-
-.input-1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: baseline;
-  padding: 20px 0;
-}
-.input-1 .name {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  border-radius: 20px;
-  padding: 9px 18px;
-  width: 42%;
-  margin-right: 20px;
-  border: 1px solid black;
-}
-.input-1 .name input {
-  border: transparent;
-  width: 100%;
-}
-.input-1 .name span {
-  color: #b61984;
-  padding-right: 6px;
-}
-
-.input-english {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  border-radius: 20px;
-  padding: 8px 16px;
-  margin-bottom: 20px;
-  width: 90%;
-  border: 1px solid black;
-}
-.input-english span {
-  color: #b61984;
-}
-.input-english .select {
-  width: 100%;
-}
-.input-english .select select {
-  border: transparent;
-  width: 100%;
-}
-
-.input-mess {
-  display: flex;
-  flex-direction: row;
-  border-radius: 20px;
-  padding: 8px 16px;
-  width: 90%;
-  border: 1px solid black;
-}
-.input-mess span {
-  padding-top: 5px;
-  padding-left: 1px;
-  color: #b61984;
-}
-.input-mess textarea {
-  border: transparent;
-  width: 100%;
-  margin-left: 5px;
-}
-.input-mess textarea:focus {
-  background-color: white;
-  outline: none !important;
 }
 
 footer {

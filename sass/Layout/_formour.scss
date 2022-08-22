@@ -1,139 +1,148 @@
-.find-couse {
-    margin-top: 130px;
+.formpeople {
+    padding-top: 150px;
     position: relative;
 
-    .container {
-        width: 70%;
-        height: auto;
+
+    .row {
+        width: 100%
     }
 
-    .img-findEnd {
+    .formimg {
+        display: block;
+        overflow: hidden;
+
+        img {
+            display: block;
+            margin: 0;
+            line-height: 0;
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+    .formtext {
+
+        .formthunhat {
+            display: flex;
+            justify-content: center;
+
+
+            .name {
+                display: flex;
+                justify-content: center;
+                max-width: 50%;
+                padding-right: 1em;
+
+                .fa-solid {
+                    position: absolute;
+                    top: 11.2rem;
+                    left: 3em;
+
+                }
+
+
+
+            }
+
+            .email {
+                display: flex;
+                justify-content: center;
+                max-width: 50%;
+                position: relative;
+
+                .fa-solid {
+                    left: 1em;
+                    line-height: 1;
+                    position: absolute;
+                    top: 0.6rem;
+                    right: 3em;
+
+                }
+
+            }
+        }
+    }
+
+    form {
+
+        border-radius: 10px;
+        box-shadow: 0 30px 30px -10px rgb(0 0 0 / 20%);
+        padding: 20px;
+        background: $color-white-3;
+
+        
+        h2 {
+            font-size: 33px;
+            font-weight: 700;
+            color: #181818;
+            padding: 30px 0;
+            
+        }
+
+        .over {
+            margin-bottom: 25px;
+        }
+
+
+
+
+
+        .form-group {
+            width: 90%;
+            color: #b61984;
+            padding-right: 6px;
+            .form-control {
+                padding: 0.5rem 2.2rem;
+                border-radius: 20px;
+            }
+
+            textarea {
+                padding: 1em 1em 1em 3.5em !important;
+                height: 90px;
+                line-height: 1.5;
+                font-size: .8em !important;
+                border-radius: 20px;
+
+            }
+
+
+            .input-group-langugue {
+                display: flex;
+                justify-content: center;
+                max-width: 50%;
+                position: relative;
+
+                .fa-solid {
+                    left: 1em;
+                    position: absolute;
+                    top: 0.6rem;
+
+
+                }
+
+            }
+
+            .input-group-messages {
+
+                position: absolute;
+                top: 21.8em;
+                left: 3.2em;
+
+            }
+
+
+        }
+    }
+
+    .formpeoplebottom {
         position: absolute;
         bottom: 0;
         left: 0;
 
         img {
-            width: 100%;
+            max-width: 100%;
             height: auto;
-            display: block;
         }
     }
-}
 
-.find-content {
-    z-index: 100;
-    max-width: 1110px;
-    margin: 0 auto;
-    padding-bottom: 30px
-}
-
-.find-img img {
-    margin-top: 30px;
-    display: block;
-    margin-left: 50px;
-    line-height: 0;
-    max-width: 100%;
-    height: auto;
-    z-index: 99999;
-}
-
-.form-dad {
-    padding: 10px 20px;
-}
-
-.form-find {
-    z-index: 9999;
-    margin-left: 70px;
-    width: 80%;
-    padding: 40px 0 50px 40px;
-    box-shadow: rgba(0, 0, 0, 0.18) 0px 24px 18px;
-    background-color: $color-white-1;
-    border-radius: $bd-2;
-
-    h1 {
-        @include styleText($fs-5, $fw-3, $color-dark-1);
-        padding: 30px 0;
-    }
-
-    .btn-pink {
-        margin-top: 40px;
-    }
-}
-
-.input-1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: baseline;
-    padding: 20px 0;
-
-    .name {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        border-radius: $radius-1;
-        padding: 9px 18px;
-        width: 42%;
-        margin-right: 20px;
-        border: 1px solid black;
-
-        input {
-            border: transparent;
-            width: 100%;
-        }
-
-        span {
-            color: $color-pink-1;
-            padding-right: 6px;
-        }
-    }
-}
-
-.input-english {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border-radius: $radius-1;
-    padding: 8px 16px;
-    margin-bottom: 20px;
-    width: 90%;
-    border: 1px solid black;
-
-    span {
-        color: $color-pink-1;
-    }
-
-    .select {
-        width: 100%;
-
-        select {
-            border: transparent;
-            width: 100%;
-        }
-    }
-}
-
-.input-mess {
-    display: flex;
-    flex-direction: row;
-    border-radius: $radius-1;
-    padding: 8px 16px;
-    width: 90%;
-    border: 1px solid black;
-
-    span {
-        padding-top: 5px;
-        padding-left: 1px;
-        color: $color-pink-1;
-    }
-
-    textarea {
-        border: transparent;
-        width: 100%;
-        margin-left: 5px;
-
-        &:focus {
-            background-color: white;
-            outline: none !important;
-        }
-    }
 }
